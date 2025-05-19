@@ -98,7 +98,7 @@ body{
     margin-right: 15px;
   }
   
-  .footer {
+  .pie {
     background-color: #bdc3c7;
     border: 15px solid black;
     padding: 10px;
@@ -107,6 +107,31 @@ body{
   .espacio {
       height: 15px;
       background-color: white;
+  }
+
+  @media  screen and (max-width: 900px) {
+
+    .header {
+        display: flex;
+        flex-direction: column;
+    }   
+
+    .container2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .articles {
+        flex: 1 1 auto;
+    }
+
+    .boxPubli {
+        flex: 1 1 auto;
+        order: 2;
+        border-left: 15px solid black;
+        border-top: 0;
+    }
+    
   }
 
 
