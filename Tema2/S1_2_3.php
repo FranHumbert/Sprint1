@@ -113,3 +113,7 @@ $operador = '/';
 $resultat = calaculadora($num1, $num2, $operador);  
 echo "la divisio de $num1 i $num2  es de: $resultat" . "\n"; //El resultat de la calculadora és: 2
 
+
+?>
+
+
