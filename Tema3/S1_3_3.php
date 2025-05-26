@@ -1,9 +1,20 @@
 <?php
 
-$paraules = ["hola", "Php", "Html"];
-$lletra = "h";
+function contenanLletra(array $paraules, string $lletra): bool {
+    $lletra = strtolower($lletra);
 
-in_array("hola", $paraules);
+    foreach ($paraules as $paraula) {
+
+        if (strpos(strtolower($paraula), $lletra) === false) {
+            return false;
+        }
+    }
+    return true;
+}
+
+$llista = ["hola", "Php", "Html"];
+var_dump(contenanLletra($llista, "h")); 
+var_dump(contenanLletra($llista, "l"));  
 
 
 
