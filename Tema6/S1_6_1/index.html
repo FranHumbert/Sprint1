@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulari d'usuari</title>
+    </head>
+    <body>
+        <h1>Formulari d'usuari</h1>
+        <form action="processar.php" method="post">
+            <div>
+                <label for="nom">Nom complet:</label> 
+                <input type="text" id = "nom" name = "nom" required>
+            </div>
+            <div>
+                <label for="username">Nom d'usuari:</label>
+                <input type="text" id = "username" name="username" required>
+            </div>
+            <div>
+                <label for="email">Correu electronic:</label>
+                <input type="email" id = "email" name="email"required>
+            </div>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+    </body>
+</html>
