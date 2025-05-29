@@ -12,6 +12,17 @@ final class testNumberChecker extends TestCase{
         $result = $numberChecker->isPositive();
 
         $this->assertSame(true, $result);
+
+        $numberChecker = new NumberChecker(-2);
+
+        $result = $numberChecker->isPositive();
+
+        $this->assertSame(false, $result);
+
+
+
+
+
     }
 
     public function testIsEven(): void {
@@ -22,6 +33,12 @@ final class testNumberChecker extends TestCase{
         $result = $numberChecker->isEven();
 
         $this->assertSame(true, $result);
+        
+        $numberChecker = new NumberChecker(3);
+
+        $result = $numberChecker->isEven();
+
+        $this->assertSame(false, $result);
     }
 
 
