@@ -1,0 +1,1 @@
+{"version":1,"defects":{"testAlumnos::testSegonaDivisio":8,"testAlumnos::testTerceraDivisio":8,"testAlumnos::testReprovat":8},"times":{"testAlumnos::testPrimeraDivisio":0.007,"testAlumnos::testSegonaDivisio":0.012,"testAlumnos::testTerceraDivisio":0,"testAlumnos::testReprovat":0}}
